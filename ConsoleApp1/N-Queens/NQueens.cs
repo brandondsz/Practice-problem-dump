@@ -56,7 +56,7 @@ namespace ConsoleApp1
             return false;
 
         }
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             int n = int.Parse(Console.ReadLine());
             int[][] arr = new int[n][];

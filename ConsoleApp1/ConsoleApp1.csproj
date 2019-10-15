@@ -43,7 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="ATrystWithChess\Class1.cs" />
+    <Compile Include="N-Queens\NQueens.cs" />
     <Compile Include="happiness.cs" />
     <Compile Include="MatrixSum.cs" />
     <Compile Include="Program.cs" />
@@ -51,6 +52,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="N-Queens\Index.html" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
