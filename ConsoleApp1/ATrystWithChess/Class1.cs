@@ -61,7 +61,7 @@ namespace ConsoleApp1.ATrystWithChess
                 return true;
             return false;
         }
-        static void Main(string[] arg)
+        static void Main1(string[] arg)
         {
             int[] inp = (Console.ReadLine()).Split(' ').Select(x => int.Parse(x)).ToArray();
 
